@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Built application files
 *.apk
 *.ap_
@@ -25,3 +26,20 @@ proguard/
 
 # Log Files
 *.log
+=======
+
+#android
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+.gradle/
+build/
+local.properties
+proguard/
+*.log
+.nacigatiom/
+
+>>>>>>> ebd0de6d73b80bab98ae51f1f3d452c0d1572f83

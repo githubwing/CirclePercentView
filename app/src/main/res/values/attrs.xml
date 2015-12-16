@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CirclePercentView">
+        <attr name="radius" format="dimension"/>
+        <attr name="stripeWidth" format="dimension"/><!--色带宽度-->
+        <attr name="percent" format="integer"/><!--百分比 最大值为100-->
+        <attr name="smallColor" format="color"/><!--色带宽度-->
+        <!--外圈颜色-->
+        <attr name="bigColor" format="color"/>
+
+        <!--中间字体颜色-->
+        <attr name="centerTextSize" format="dimension"/>
+        <!--色带宽度-->
+    </declare-styleable>
+</resources>
