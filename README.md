@@ -5,4 +5,26 @@ An Android CirclePercentView
 
 ###Perview
 ![image](https://github.com/githubwing/CirclePercentView/raw/master/perview.gif)
->>>>>>> ebd0de6d73b80bab98ae51f1f3d452c0d1572f83
+###How To Use
+add a CirclePercentView into your XML.
+
+```
+<com.wingsofts.circlepercentview.CirclePercentView
+    android:id="@+id/circleView"
+    app:stripeWidth="15dp"    
+    app:centerTextSize="16sp"
+    app:percent="45"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+```
+you can change percent by call setPercent()
+```
+   mButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int n = (int)(Math.random()*100);
+                mCirclePercentView.setPercent(n);
+            }
+        });
+
+```
