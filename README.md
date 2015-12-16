@@ -17,7 +17,7 @@ add a CirclePercentView into your XML.
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" />
 ```
-you can change percent by call setPercent()
+you can change percent by call method setPercent()
 ```
    mButton.setOnClickListener(new View.OnClickListener() {
             @Override
