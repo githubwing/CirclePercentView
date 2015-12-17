@@ -155,9 +155,13 @@ public class CirclePercentView extends View {
         new Thread(new Runnable() {
             @Override
             public void run() {
+                int sleepTime = 1;
                 for(int i =0;i<mPercent;i++){
+                    if(i%20 == 0){
+                        sleepTime+=2;
+                    }
                     try {
-                        Thread.sleep(15);
+                        Thread.sleep(sleepTime);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
